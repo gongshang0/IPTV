@@ -19,7 +19,7 @@ open_sort = True
 response_time_weight = 0.5
 resolution_weight = 0.5
 recent_days = 30
-ipv_type = "ipv6"
+ipv_type = "ipv4"
 domain_blacklist = ["epg.pw"]
 url_keywords_blacklist = []
 open_subscribe = True
@@ -30,6 +30,6 @@ subscribe_urls = [
 ]
 open_multicast = True
 region_list = ["all"]
-open_proxy = True
+open_proxy = False
 open_driver = False
 open_use_old_result = True
